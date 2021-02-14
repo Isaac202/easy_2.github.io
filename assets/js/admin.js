@@ -1,11 +1,3 @@
-$(()=>{
- $('.btn-painel').click(function(){
-    return $('.btn-painel').removeClass('selected-menu')
- })
-
-})
-
-window.addEventListener("load", start)
 if (typeof jQuery === "undefined") {
     throw new Error("Carregar JQuery antes deste arquivo.");
 }
